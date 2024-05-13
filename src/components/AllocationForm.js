@@ -89,7 +89,8 @@ const AllocationForm = (props) => {
           </div>
           <input
             required="required"
-            type="number"
+            type="text"
+            pattern="[0-9]*"
             id="cost"
             value={cost}
             style={{ marginLeft: "4px", size: 10 }}
